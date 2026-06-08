@@ -1,0 +1,4 @@
+source;share/acoustic_nav_bringup/local_setup.bash
+source;share/acoustic_nav_bringup/local_setup.dsv
+source;share/acoustic_nav_bringup/local_setup.sh
+source;share/acoustic_nav_bringup/local_setup.zsh
