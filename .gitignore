@@ -1,0 +1,10 @@
+*.pdf
+*.gv
+
+build/
+install/
+log/
+
+_pycache_/
+*.pyc
+*.pyo
