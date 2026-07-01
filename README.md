@@ -4,15 +4,22 @@
 > 
 Acoustic-Based Path Planning and Active Search for Occluded Object Localization with a Robot in Indoor Environments
 
-# Host Network
+
+## Docker Setup
+
+Build the Docker image
+```bash
+DOCKER_BUILDKIT=0 docker build -t foxy_acoustic -f docker/Dockerfile .
+```
+
+
+Run the Container
+```bash
+docker run -it --net=host --name foxy_ros2 -v "$PWD/foxy_ws:/foxy_ws" foxy_acoustic
+```
+
+Build the workspace
 
 ```bash
-docker run -it --rm \
-  --network host \
-  -v ~/foxy_ws:/ws \
-  osrf/ros:foxy-desktop
-```
-```
-
-
+source /opt/ros/foxy/setup.bash
 
