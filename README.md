@@ -1,9 +1,8 @@
 # damp-active-search
 
 > Developed at the Institute of Science Tokyo, Japan
-> 
-Acoustic-Based Path Planning and Active Search for Occluded Object Localization with a Robot in Indoor Environments
 
+DAMP-Active-Search (Disentangled Acoustic Multi-task Perception) is a robotics framework for active acoustic exploration and localization of occluded objects in indoor environments. It combines acoustic perception, belief map estimation, and information-driven navigation to enable a mobile robot to actively search for hidden targets using sound-based sensing.
 
 ## Docker Setup
 
