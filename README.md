@@ -6,15 +6,23 @@ DAMP-Active-Search (Disentangled Acoustic Multi-task Perception) is a robotics f
 
 > Docket Setup
 
-Build the Docker image
+Build the docker image
+
 ```bash
 DOCKER_BUILDKIT=0 docker build -t foxy_acoustic -f docker/Dockerfile .
 ```
 
 
-Run the Container
+Run the container
+
 ```bash
 docker run -it --net=host --name foxy_ros2 -v "$PWD/foxy_ws:/foxy_ws" foxy_acoustic
+```
+
+Start the container again
+
+```bash
+docker start -ai foxy_ros2
 ```
 
 Build the workspace
